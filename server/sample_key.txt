@@ -1,0 +1,5 @@
+module.exports = {
+    mongoURI:
+    "Your_mongoURI_key",
+    JWTTOKENS:"Your_jwt_token"
+}

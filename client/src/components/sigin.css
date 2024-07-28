@@ -1,0 +1,68 @@
+.signincard {
+    border: 1px solid rgb(52, 49, 49);
+    width: 30%;
+    min-height: 40vh;
+    display: flex;
+    padding: 20px 20px;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(26, 25, 25, 0.5);
+}
+
+.sigininput {
+    padding: 10px 20px;
+   
+    border: 1px solid #212020;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.sigininput::placeholder {
+    color: #bbb;
+}
+
+.siginbutton {
+    padding: 10px 20px;
+    width: 50%;
+    border: none;
+    align-self: center;
+    border-radius: 5px;
+    background-color: #F16222;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.siginbutton:hover {
+    background-color: #d1541b;
+}
+
+label {
+    width: 100%;
+    color: rgb(30, 30, 30);
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.welcome-text {
+    font-size: 20px;
+    color: #020202;
+    line-height: 1.5;
+    animation: fadeIn 2s ease-in-out;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: #F16222; /* Highlight color */
+    font-weight: bold;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
