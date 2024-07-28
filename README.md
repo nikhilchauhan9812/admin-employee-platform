@@ -20,35 +20,38 @@ This project is a web application for managing employee data. It allows for CRUD
 
 ## Installation
 for backend
-``
+```bash
 cd backend
 npm install
-``
+```
+for frontend
 
-``
+```bash
 cd ../frontend
 npm install
-``
+```
 
 
 ##Running the Application
 Backend
 
-``
+```
 cd backend
-``
+```
 Create a key.js file and add your MongoDB connection string
-MONGODB_URI=your_mongodb_connection_string
-``
+```
+MONGODB_URI="your_mongodb_connection_string"
+```
+```
 npm start
-``
+```
 The backend server will start on http://localhost:5000.
 
 Frontend
-``
+```
 cd frontend
 npm start
-``
+```
 The frontend server will start on http://localhost:3000.
 
 
